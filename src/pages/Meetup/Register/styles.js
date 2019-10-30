@@ -9,12 +9,16 @@ export const Container = styled.div`
     flex-direction: column;
     margin-top: 30px;
 
-    input {
+    textarea {
+      height: 200px !important;
+    }
+    input,
+    textarea {
       background: rgba(0, 0, 0, 0.1);
       border: 0;
       border-radius: 4px;
       height: 50px;
-      padding: 0 15px;
+      padding: 15px;
       color: #fff;
       margin: 0 0 10px;
 
@@ -36,7 +40,7 @@ export const Container = styled.div`
       margin: 10px 0 20px;
     }
 
-    button {
+    > button {
       display: flex;
       align-self: flex-end;
       align-items: center;
